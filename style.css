@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(231, 234, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px
+}
+
+.card{
+    background-color: #9BA17B;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px 12px #61764B, 5px 5px 12px rgba(12, 12, 12, 0);
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.display{
+    background-color: #CFB997; 
+    height: 30%;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: inset 2px 3px 11px rgba(12, 12, 12, 0.16), 5px 5px 12px #61764B ;
+    display: flex;
+    justify-content: center;
+}
+.display input{
+    background-color: transparent;
+    border: none;
+    text-align: end;
+    font-size: 30px;
+    width: 90%;
+    outline: none;
+}
+.button{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.tombol-kiri{
+    width: 70%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.tombol{
+    background-color: #CFB997;
+    box-shadow: inset 5px 5px 12px #CFB997, 5px 5px 12px rgba(12, 12, 12, 0.16);
+    border: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    cursor: pointer;
+    color:#61764B;
+}
+.tombol:hover{
+    transform: scale(0.9);
+}
+
+.tombol-kanan{
+    background-color: #c0b0988e;
+    box-shadow: inset 5px 5px 12px  rgba(0,0,0,0.26), 5px 5px 12px #d1c7b8;
+    border-radius: 20px;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:space-around;
+}
